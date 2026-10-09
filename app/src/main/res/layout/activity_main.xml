@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Intents y Funciones Android"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Proyecto básico en Java"
+        android:textSize="18sp"
+        android:layout_marginBottom="40dp"/>
+
+
+    <!-- LINTERNA -->
+
+    <Button
+        android:id="@+id/btnLinterna"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="💡 ENCENDER LINTERNA"/>
+
+
+    <!-- INTENT EXPLÍCITO -->
+
+    <Button
+        android:id="@+id/btnSegundaVista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📱 IR A SEGUNDA VISTA"
+        android:layout_marginTop="15dp"/>
+
+
+    <!-- GEOLOCALIZACIÓN -->
+
+    <Button
+        android:id="@+id/btnUbicacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📍 OBTENER MI UBICACIÓN"
+        android:layout_marginTop="15dp"/>
+
+
+    <!-- RESULTADO UBICACIÓN -->
+
+    <TextView
+        android:id="@+id/txtUbicacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ubicación aún no obtenida"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:padding="15dp"
+        android:layout_marginTop="15dp"/>
+
+
+    <!-- INTENT IMPLÍCITO -->
+
+    <Button
+        android:id="@+id/btnMapa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🗺️ VER UBICACIÓN EN MAPA"
+        android:layout_marginTop="15dp"/>
+
+</LinearLayout>
