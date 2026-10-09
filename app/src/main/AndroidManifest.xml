@@ -38,6 +38,8 @@
     <!-- APLICACIÓN -->
     <!-- ========================================= -->
 
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="android.hardware.location" android:required="false"/>
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -49,6 +51,8 @@
         android:theme="@style/Theme.Semana7">
 
 
+        <activity android:name=".ConfigActivity" android:exported="false"/>
+        <activity android:name=".AyudaActivity" android:exported="false"/>
         <!-- ===================================== -->
         <!-- SEGUNDA PANTALLA -->
         <!-- ===================================== -->
