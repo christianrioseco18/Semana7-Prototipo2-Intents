@@ -89,19 +89,27 @@ Después, Handler actualiza la imagen en el hilo principal. Esto ayuda a que la 
 
 El hilo de trabajo se cierra cuando se destruye la actividad.
 
-## 🖼️ Capturas
+## 🖼️ Capturas de la aplicación
 
-### Pantalla principal
+### 1. Pantalla principal
+Botones para las funciones del dispositivo y los intents implícitos.
+
 ![Pantalla principal](docs/capturas/01-inicio.png)
 
-### Segunda Vista
+### 2. Segunda Vista
+Muestra el nombre recibido desde la pantalla principal mediante un intent explícito.
+
 ![Segunda Vista](docs/capturas/02-detalle.png)
 
-### Imagen seleccionada
-![Imagen seleccionada desde la galería](docs/capturas/03-galeria.png)
+### 3. Galería
+Abre el selector de imágenes del sistema. En esta captura, el emulador todavía no tiene fotografías.
 
-### Validación en Ajustes
-![Validación del nombre](docs/capturas/04-ajustes.png)
+![Selector de imágenes](docs/capturas/03-galeria.png)
+
+### 4. Validación de Ajustes
+Muestra un mensaje de error al intentar guardar el nombre vacío.
+
+![Validación en Ajustes](docs/capturas/04-ajustes.png) 
 
 ## 📁 Archivos principales
 
@@ -127,3 +135,8 @@ El hilo de trabajo se cierra cuando se destruye la actividad.
 ## 👤 Estudiante
 
 Christian Rioseco.
+
+## 📄 Informe y presentación
+
+- [Descargar informe](documentacion/Informe_Android_Prototipo_2.docx)
+- [Descargar presentación](documentacion/Presentacion_Android_Prototipo_2.pptx)
